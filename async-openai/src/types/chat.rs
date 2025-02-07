@@ -897,7 +897,7 @@ pub struct CreateChatCompletionResponse {
     pub system_fingerprint: Option<String>,
 
     /// The object type, which is always `chat.completion`.
-    pub object: String,
+    pub object: Option<String>,
     pub usage: Option<CompletionUsage>,
 }
 
